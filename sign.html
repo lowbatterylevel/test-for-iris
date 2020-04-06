@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>
+
+	</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+		<div id="container">
+			<h1 id="heading">Sign Up</h1>
+
+			
+					
+
+			<!-- SIGN UP FORM -->
+			<form id="signUp-form-from" action="">
+
+				<!-- FORM MAIN WRAPPER -->
+				<div id="form-main-wrap">
+
+
+					<!-- BENEFITS -->
+					<div id="benefits" class="tab hidden">
+						<h2>MEMBERSHIP BENEFITS</h2>
+
+						<div id="slider-wrapper">
+						<ul id="slider-holder">
+							<li>
+								<p>Put yourself on our map!<br>A Listing with geolocation in our enterprise website built by a Gold Star business.</p>
+								<div class="slide">
+									<img src="img/slider/photo1.jpg" alt="">
+								</div>
+							</li>
+							<li>
+								<p>Show your customers you are part of something bigger.<br>A GZH Patriotic Battlestar decal to display on your company’s front door or window.</p>
+								<div class="slide">
+									<img src="img/slider/photo2.png" alt="">
+								</div>
+							</li>
+							<li>
+								<p>Opportunities to grow your business. THE BEST PRACTICES MANUAL for attracting more business.<br>COMMUNITY OUTREACH TOOLS to create business networking opportunities.</p>
+								<div class="slide">
+									<img src="img/slider/photo3.jpg" alt="">
+								</div>
+							</li>
+							<li>
+								<p>Podcast opportunities (Audio-Medicine)<br>on Straight Outta Combat Radio</p>
+								<div class="slide"><img src="img/slider/photo4.jpg" alt=""></div>
+							</li>
+						</ul>
+							
+						</div>
+
+
+						<div id="slider-indicator">
+							<span class="active"></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+
+
+						<div id="slider-btn">
+							<div id="slide-prev"></div>
+							<div id="slide-next"></div>
+						</div>
+
+						<a id="home-holder" href="">Home</a>
+					</div>
+					<!--#BENEFITS end-->
+
+
+
+					<!-- MEDALSELECT -->
+					<div id="medals-holder"  class="tab hidden">
+						<p class="instruction">Choose Cyber Medals</p>
+
+						<label for="vet1">
+							<input type="checkbox" id="vet1" name="vet" value="1">
+							<div>									
+								<img src="img/1.png" alt="">
+							</div>
+							<div class="medal-caption">Offers<br>Veteran Discount</div>
+						</label>
+
+						<label for="vet2">
+							<input type="checkbox" value="1" name="vet" id="vet2">
+							<div>
+								
+							<img src="img/2.png" alt="">
+							</div>
+							<div class="medal-caption">Employs<br>Veterans</div>
+						</label>
+
+						<label for="vet3">
+							<input type="checkbox" value="1" name="vet" id="vet3">
+							<div>
+								<img src="img/3.png" alt="">
+							</div>
+							<div class="medal-caption">Veteran<br>Owned/Managed</div>
+						</label>
+
+						<label for="vet4">
+							<input type="checkbox" value="1" name="vet" id="vet4">
+							<div>
+								<img src="img/4.png" alt="">
+							</div>
+							<div class="medal-caption">Donates Time/Money<br>To Veteran Charities</div>
+						</label>
+
+						<label for="vet5">
+							<input type="checkbox" value="1" name="vet" id="vet5">
+							<div>
+								<img src="img/5.png" alt="">
+							</div>
+							<div class="medal-caption">Hires<br>Disabled Veterans</div>
+						</label>
+					</div>
+					<!-- > MEDALSELECT end -->
+
+					
+					<!-- PERSONAL DETAILS -->
+					<div id="details"  class="tab form-fields hidden">
+						<p class="instruction">Fill out the fields</p>
+
+						<label for="fname">
+							<input type="text" id="fname" name="fname" placeholder="First Name*">
+						</label>
+
+						<label for="lname">
+							<input type="text" id="lname" name="lname" placeholder="Last Name*">
+						</label>
+
+						<label for="busnss">
+							<input type="text" id="busnss" name="busnss" placeholder="Business Name*">
+						</label>
+
+						<label for="email">
+							<input type="email" id="email" name="email" placeholder="Email*">
+						</label>
+
+						<label for="pass">
+							<input type="password" id="pass" name="pass" placeholder="Password*">
+						</label>
+
+						<label for="confirmPass">
+							<input type="password" id="confirmPass" name="confirmPass" placeholder="Password*">
+						</label>						
+					</div>
+					<!-- > PERSONAL DETAILS end -->
+
+
+					<!-- PAYMENT DETAILS -->
+					<div id="paydetails"  class="tab form-fields hidden">
+						<p class="instruction">Payment Details</p>
+
+						<label for="cardNumber">
+							<input type="text" pattern="[0-9]" id="cardNumber" name="cardNumber" placeholder="Credit Card Number">
+						</label>
+
+						<label for="ccv">
+							<input type="text" pattern="[0-9]"id="ccv" name="ccv" placeholder="CVV">
+						</label>
+
+						<label for="zip">
+							<input type="text" pattern="[0-9]"id="zip" name="zip" placeholder="ZIP">
+						</label>
+
+						<label for="exDate">
+							<input type="text" id="exDate" name="exDate" placeholder="Expiration Date  mm/yyyy">
+						</label>
+
+						<p class="price">$19.95 per month for membership</p>					
+					</div>
+					<!-- > PAYMENT DETAILS end -->
+
+				</div>
+				<!-- FORM MAIN WRAP -->
+
+
+
+				<!-- PROGRESS BUTTONS HOLDER -->
+				<div id="btn-holder" class="btn-holder">
+					<div id="back" class="btn">Back</div>
+					<div id="next"class="btn">Skip</div>
+					<input type="submit" id="submit" class="btn hidden">
+				</div>
+				<!-- PROGRESS BUTTONS HOLDER end -->
+
+			</form>
+			<!-- SIGN UP FORM end -->
+
+
+
+
+			<!-- RESULT -->
+			<!-- SUCCESS -->
+			<div id="result-true"  class="result-tab hidden">
+				<h1>Sign Up</h1>
+				<img src="img/result-true.png" alt="">
+				<p class="result-status">Your membership has been successfully submitted.<br>Please check your email to confirm your account.</p>
+				<div class="btn-holder">
+					<a href="#" class="btn close-btn">Close</a>
+				</div>
+			</div>
+			<!-- SUCCESS end -->
+
+				
+			<!-- FAIL -->
+			<div id="result-false"  class="result-tab hidden">
+				<h1>Sign Up</h1>
+				<img src="img/result-false.png" alt="">
+				<p class="result-status">Something went wrong.<br>Please go back and try again.</p>
+				<div class="btn-holder">
+					<button id="retry" class="btn">Back</button>
+					<a href="#" class="btn close-btn">Close</a>
+				</div>
+			</div>
+			<!-- FAIL end -->
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="script.js">
+
+		</script>
+</body>
+</html>
